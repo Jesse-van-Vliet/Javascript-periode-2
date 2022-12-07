@@ -1,10 +1,10 @@
 let text = "";
 let table = 10;
 
-// for (let i = 1; i < 11; i++) {
-//   text += i + " x " + table + " = " + i * table + "<br>";
-// }
-// document.getElementById("demo").innerHTML = text;
+for (let i = 1; i < 11; i++) {
+  text += i + " x " + table + " = " + i * table + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
 
 
 
